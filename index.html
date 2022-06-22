@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/cf843a238b.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="menu">
+    <input type="checkbox">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+
+    <!-- nav escritorio -->
+    <nav id="navDesktop">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about_me">Sobre mi</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- nav mobile -->
+    <nav id="navMobile">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about_me">Sobre mi</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+  <section id="hero">
+    <div class="text_button">
+      <h1> Bea Trejo</h1>
+      <h2>Digital Marketing Specialist</h2>
+      <button><a href="#contact">¡Contacta ahora!</a></button>
+    </div>
+    <div class="ilustration">
+      <img src="./assets/Marketing_Flatline.svg" alt="Ilustracion_Digital_Marketing">
+    </div>
+  </section>
+  <section id="about_me">
+    <div class="text_about">
+    <h1>Sobre mi.</h1>
+    <h2> ¡Hola! Si has llegado aquí puede que te hayas perdido...</h2>
+    <p>Pero si no es el caso... ¡Soy Bea! y me dedico al Marketing Digital.</p>
+    <p> Desde que conseguí posicionar una palabra clave en el top 10 de un buscador, me apasione por el increible y
+      amplio mundo del marketing digital. Tengo experiencia en creación de campañas digitales, estrategias de CRM,
+      estrategias de CRO, y como SEO CopyWriter.</p>
+    <p>Fuera de mis horas de oficina me encontrarás haciendo deporte, perdida en el monte o disfrutando de una buena comida.</p>
+  </div>
+  <div>
+    <img class="img_gif" src="./assets/VID_113670215_214432_342(0).gif" alt="Soy Bea">
+  </div>
+  </section>
+  <section id="projects">
+    <h1>Proyectos.</h1>
+    <div class="prj">
+    <article class="clubfieras">
+      <div>
+        <img class="img_projects" src="./assets/clubfieras.jpg" alt="Club de Fieras">
+      </div>
+      <div>
+        <h2>Club de Fieras</h2>
+        Digital Marketing Specialist
+      </div>
+    </article>
+    <article class="thebridge">
+      <div>
+        <img class="img_projects" src="./assets/thebridge.png" alt="The Bridge School">
+      </div>
+      <div>
+        <h2>The Bridge Tech</h2>
+        Digital Marketing Specialist
+      </div>
+    </article>
+    <article class="wildproud">
+      <div>
+        <img class="img_projects" src="./assets/wildandproud.jpg" alt="Wild and Proud">
+      </div>
+      <div>
+        <h2>Be Wild, Be Proud</h2>
+        Digital Marketing Specialist
+      </div>
+    </article>
+    <article class="graciads">
+      <div>
+        <img class="img_projects" src="./assets/graciads.png" alt="GraciAds Marketing">
+      </div>
+      <div>
+        <h2>GraciAds</h2>
+        SEO CopyWritter
+      </div>
+    </article>
+  </div>
+  </section>
+  <section id="contact">
+    <h1>Contacto</h1>
+    <form action="#contact" class="center">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" placeholder="Aqui tu nombre" minlenght="3" maxlenght="30"
+            required>
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="lname" name="lname" placeholder="Aquí tu apellido" minlenght="3" maxlenght="30"
+            required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Aquí tu email" required>
+        <label for="comments">Comentarios</label>
+                <textarea rows="2" cols="30" name="comments" wrap="hard" placeholder="Escribe aquí tus comentarios"></textarea>
+                <label><input type="checkbox" id="accept" value="accept"> Acepto los términos legales</label>
+                <input type="submit" value="Submit">
+      </form>
+      </section>
+      <footer>
+        Beatriz Trejo Luzón®
+      </footer>
+      <div class="top"><a href="#"> &#128285;</a></div>
+      </body>
+
+</html>
